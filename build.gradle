@@ -16,6 +16,8 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+	implementation 'jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api'
+	providedRuntime 'jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
