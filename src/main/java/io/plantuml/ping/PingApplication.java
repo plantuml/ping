@@ -17,7 +17,7 @@ public class PingApplication extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(io.plantuml.ping.PingApplication.class);
+		return application.sources(PingApplication.class);
 	}
 
 	@Bean
