@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title data-th-text="| thymleaf ${message}|">Une page</title>
+</head>
+<body>
+<h1>Index page</h1>
+<div data-th-text="${message}">This is the Welcome template</div>
+<ul>
+    <li>
+        <a href="/hello">hello: simple HTML rest</a>
+    </li>
+    <li>
+        <a href="/ping">ping: simple JSON rest</a>
+    </li>
+    <li>
+        <a href=static.html>static HTML file</a>
+    </li>
+    <li>
+        <a href="/welcome">Welcome Page</a>
+    </li>
+</ul>
+</body>
+</html>
